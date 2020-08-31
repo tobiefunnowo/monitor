@@ -2,7 +2,7 @@
 //  ExploreDetailsViewController.swift
 //  MonitorTrial
 //
-//  Created by Ibukunoluwa Soyebo on 03/08/2020.
+//  Created by Tobi Efunnowo  on 03/08/2020.
 //  Copyright © 2020 MAC. All rights reserved.
 //
 

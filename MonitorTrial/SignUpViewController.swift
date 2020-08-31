@@ -2,7 +2,7 @@
 //  SignUpViewController.swift
 //  MonitorTrial
 //
-//  Created by Ibukunoluwa Soyebo on 02/08/2020.
+//  Created by Tobi Efunnowo  on 02/08/2020.
 //  Copyright © 2020 MAC. All rights reserved.
 //
 

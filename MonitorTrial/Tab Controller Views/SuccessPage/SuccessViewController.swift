@@ -2,7 +2,7 @@
 //  SuccessViewController.swift
 //  MonitorTrial
 //
-//  Created by Ibukunoluwa Soyebo on 04/08/2020.
+//  Created by Tobi Efunnowo  on 04/08/2020.
 //  Copyright © 2020 MAC. All rights reserved.
 //
 
