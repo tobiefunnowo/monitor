@@ -7,7 +7,7 @@ PODS:
     - Realm (= 5.3.3)
 
 DEPENDENCIES:
-  - PKHUD
+  - PKHUD (~> 5.0)
   - RealmSwift
 
 SPEC REPOS:
@@ -21,6 +21,6 @@ SPEC CHECKSUMS:
   Realm: 2d57ea355bf8ca2a0964d6bfb38d28d7ff2addf6
   RealmSwift: 0a709536ecea30eea1d3c514f6ade2ed078dee3c
 
-PODFILE CHECKSUM: bc4ca9d1e7a3cbd16c9abc7b2401857460074b5b
+PODFILE CHECKSUM: 1ea4f8635d538fef81dd1195cf4d91a768e4cc87
 
 COCOAPODS: 1.9.3

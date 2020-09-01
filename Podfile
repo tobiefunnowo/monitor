@@ -6,7 +6,7 @@ target 'MonitorTrial' do
   use_frameworks!
 
   # Pods for MonitorTrial
-pod 'PKHUD'
+pod 'PKHUD', '~> 5.0'
 pod 'RealmSwift'
   target 'MonitorTrialTests' do
     inherit! :search_paths
