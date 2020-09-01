@@ -12,6 +12,7 @@ class ExploreViewController: UIViewController {
 
 	//var sentIndex:Int = 0
     @IBOutlet weak var tblExplore: UITableView!
+    @IBOutlet weak var lblTodayDate: UILabel!
     
 //    @IBOutlet weak var btnEntertainmentAllDay: UIButton!
 //    @IBOutlet weak var btnUrgeToCreate: UIButton!
@@ -80,12 +81,15 @@ class ExploreViewController: UIViewController {
 			varyingExploreOptions.append(exploreOption)
 		}
 		tblExplore.reloadData()
+        
 		
 		
         //optionsStackView.add
         // Do any additional setup after loading the view.
     }
 	
+    
+    
 	override func viewDidLayoutSubviews() {
 		  super.viewDidLayoutSubviews()
 		  self.tblExplore.contentInset = UIEdgeInsets(top: 10, left: 0, bottom: 0, right: 0)
@@ -93,21 +97,10 @@ class ExploreViewController: UIViewController {
 	
 	override func viewWillAppear(_ animated: Bool) {
 		super.viewWillAppear(animated)
-				
 		
-//		if sentIndex == 0{
-//			optionsStackView.removeArrangedSubview(btnEntertainmentAllDay)
-//			optionsStackView.insertArrangedSubview(btnEntertainmentAllDay, at: 0)
-//		}else if sentIndex == 1{
-//			optionsStackView.removeArrangedSubview(btnUrgeToCreate)
-//			optionsStackView.insertArrangedSubview(btnUrgeToCreate, at: 0)
-//		}else if sentIndex == 2{
-//			optionsStackView.removeArrangedSubview(btnWorkWiser)
-//			optionsStackView.insertArrangedSubview(btnWorkWiser, at: 0)
-//		}else if sentIndex == 3{
-//			optionsStackView.removeArrangedSubview(btnMeditate)
-//			optionsStackView.insertArrangedSubview(btnMeditate, at: 0)
-//		}
+        lblTodayDate.text = HelperClass.handleTodayDate()
+		
+
 	}
     
     

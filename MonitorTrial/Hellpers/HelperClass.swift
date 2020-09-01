@@ -16,6 +16,17 @@ class HelperClass{
 		return
 	}
 	
+	static func handleTodayDate()-> String{
+        var todayDate = ""
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle  = DateFormatter.Style.medium
+        dateFormatter.timeStyle  = DateFormatter.Style.none
+        todayDate = dateFormatter.string(from: Date())
+        
+        
+        return todayDate
+    }
+	
 	static var userEmailAddres = ""
 	
 	static var sentIndex = 0

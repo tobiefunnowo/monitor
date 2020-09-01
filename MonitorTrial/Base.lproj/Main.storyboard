@@ -1099,6 +1099,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="BiX-pI-PJr"/>
                     <connections>
+                        <outlet property="lblTodayDate" destination="UES-7q-JVB" id="ffn-ky-Yst"/>
                         <outlet property="tblExplore" destination="OQT-s3-OsS" id="HhH-Rr-JOi"/>
                     </connections>
                 </viewController>

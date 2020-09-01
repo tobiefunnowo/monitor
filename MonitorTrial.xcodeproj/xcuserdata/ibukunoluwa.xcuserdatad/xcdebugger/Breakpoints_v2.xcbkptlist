@@ -14,8 +14,8 @@
             filePath = "MonitorTrial/Tab Controller Views/Explore/ExploreViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
             landmarkName = "setupDetailsView(imageName:subtitleNAme:stringTitle:textViewContent:lsitService:)"
             landmarkType = "7">
          </BreakpointContent>
